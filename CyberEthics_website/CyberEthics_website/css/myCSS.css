@@ -1,0 +1,56 @@
+body{
+	background: beige;
+}
+
+nav.text{
+	background: white;
+	border-radius: 25px;
+	border-width: 100px;
+	border-color: #000;
+	padding: 15px;
+	box-shadow:  -3px 3px #77aaff,
+         -3px 3px #77aaff,
+         -3px 3px #77aaff,
+         -4px 4px #77aaff,
+         -4px 4px #77aaff;
+}
+
+button{
+	color: lightblue;
+	outline-width: 3px;
+	background: transparent;
+	border-radius: 25px;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right:10px;
+
+
+}
+
+a{
+	-webkit-transition: color 0.2s ease-out;
+}
+
+section.border button {
+  color: #6496c8;
+  background: rgba(0,0,0,0);
+  border: solid 2px #6496c8;
+
+
+ -webkit-transition: color 0.2s ease-out;
+ 
+
+ -webkit-transition: border-color 0.2s ease-out;
+ 
+
+}
+section.border button:hover,
+section.border button.hover {
+  border-color: #346392;
+  color: #346392;
+}
+section.border button:active,
+section.border button.active {
+  border-color: #27496d;
+  color: #27496d;
+}
